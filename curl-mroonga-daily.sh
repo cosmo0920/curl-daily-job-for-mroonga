@@ -11,4 +11,3 @@ if [ $STATUSCODE -ne 200 ]; then
     exit 1
 fi
 curl -O $URL
-echo $?
