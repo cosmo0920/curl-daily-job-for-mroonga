@@ -14,4 +14,4 @@ fi
 curl --fail -O "http://packages.groonga.org/nightly/mariadb-${MARIADBVER}-with-mroonga-${MROONGAVER}-for-windows.${DATE}.zip"
 
 find ./ -maxdepth 1 -type f -ctime +${keep_n_days} -print0 | \
-  xargs --null $XARGS_NO_RUN rm
+  xargs $XARGS_NO_RUN rm
