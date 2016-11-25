@@ -1,6 +1,6 @@
 # specify MariaDB and Mroonga version
 set -x
-export MARIADBVER="10.1.18"
+export MARIADBVER="10.1.19"
 export MROONGAVER="6.11"
 # get Date
 # e.g. # => 2014.07.01
