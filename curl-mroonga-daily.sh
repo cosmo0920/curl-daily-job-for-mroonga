@@ -1,7 +1,7 @@
 # specify MariaDB and Mroonga version
 set -x
 export MARIADBVER="10.1.19"
-export MROONGAVER="6.11"
+export MROONGAVER="6.12"
 # get Date
 # e.g. # => 2014.07.01
 export DATE="`date +\"%Y.%m.%d\"`"
